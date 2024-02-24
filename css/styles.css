@@ -206,7 +206,65 @@ margin-right: auto;
     padding-top:120px;
     padding-bottom: 120px;
 }
+.icon-foto{
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+background: #f4f4fd;
+width: 264px;
+margin-bottom: 8px;
 
+}
+.icon-foto-one{
+    background-image: url(../images/antenna\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+background-color: #f4f4fd;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.icon-foto-two{
+    background-image: url(../images/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+background-color: #f4f4fd;
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+.icon-foto-tree{
+    background-image: url(../images/diagram\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+background-color: #f4f4fd;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.icon-foto-four{
+    background-image: url(../images/astronaut\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+background-color: #f4f4fd;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.icon-foto-tree,
+.icon-foto-two,
+.icon-foto-tree,
+.icon-foto-four:hover{
+    fill: #2e2f42;
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -282,24 +340,64 @@ color: #2e2f42;
         
         
 }
-.icon-id{
+.icon-list{
+    
+    display: flex;
+    margin-top:8px;
+    padding-bottom:32px;
+    gap:24px;
+    padding-left:16px;
+    padding-right:16px;
+    fill: #f4f4fd;
+  
+}
+.icon-id-one{
     display: flex;
     justify-content: center;
     align-items:center;
     width:40px;
     height: 40px;
-    border-radius: 50%;
-    background-color:#4D5AE5;
-    margin-top: 8px;
-    padding-bottom: 32px;
-    gap:24px;
-    padding-left: 16px;
-    padding-right: 16px;
+    border-radius:50%;
     background-image: url(../images/instagram\ 2.svg);
+    background-color: #4D5AE5;
     background-repeat: no-repeat;
-    background-size: 16px 16px;
- background-position: center;
-   
+    background-position: center;
+}
+.icon-id-two{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:40px;
+    height: 40px;
+    border-radius:50%;
+    background-image: url(../images/twitter\ 1.svg);
+    background-color: #4D5AE5;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-id-tree{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:40px;
+    height: 40px;
+    background-image: url(../images/facebook\ 1.svg);
+    border-radius:50%;
+    background-color: #4D5AE5;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-id-four{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:40px;
+    height: 40px;
+    background-image: url(../images/linkedin\ 1.svg);
+    border-radius:50%;
+    background-color: #4D5AE5;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .foto-people{
     background-color: #FFFFFF;
@@ -307,6 +405,7 @@ color: #2e2f42;
 }
 .names-workers{
     padding: 32px 0;
+   
 }
 .name-person-work{
     font-weight: 500;
@@ -316,6 +415,8 @@ color: #2e2f42;
     color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
+  
+  text-decoration: none;
     }
     .team-foto-people{
         list-style-type: none;  
@@ -331,6 +432,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+
 }
 
 
