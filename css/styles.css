@@ -152,8 +152,7 @@ margin-right: auto;
     background-color: #2e2f42;
     color: #fff;
     padding: 188px 0 188px;
-   background-image:linear-gradient(
-    rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,6 +196,7 @@ margin-right: auto;
    border-radius: 4px;
    margin-top: 48px;
    min-width: 169px;
+   transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-link-design:focus,
 .button-link-design:hover{
@@ -220,51 +220,20 @@ width: 264px;
 margin-bottom: 8px;
 
 }
-.icon-foto-one{
-    background-image: url(../images/antenna\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+.section-two-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
     border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-background-color: #f4f4fd;
-padding-top: 24px;
-padding-bottom: 24px;
 }
-.icon-foto-two{
-    background-image: url(../images/clock\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-background-color: #f4f4fd;
-padding-top: 24px;
-padding-bottom: 24px;
 
-}
-.icon-foto-tree{
-    background-image: url(../images/diagram\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-background-color: #f4f4fd;
-padding-top: 24px;
-padding-bottom: 24px;
-}
-.icon-foto-four{
-    background-image: url(../images/astronaut\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-background-color: #f4f4fd;
-padding-top: 24px;
-padding-bottom: 24px;
-}
+
+
+
 
 .visually-hidden{
     position: absolute;
@@ -477,8 +446,12 @@ color: #2e2f42;
    
     
 }
+.foto-app:hover{
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .foto-app:hover .overlay-icon{
     transform: translateY(0%);
+    
     
    
 }
@@ -513,6 +486,9 @@ color: #f4f4fd;
     border: 1px solid #e7e9fc;
     border-top: none;
   
+}
+.categories-app:hover{
+    transform: translateY(0%);
 }
 .name-person-work-two{
     text-align: left;
