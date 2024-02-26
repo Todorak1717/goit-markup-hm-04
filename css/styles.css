@@ -306,9 +306,15 @@ color: #2e2f42;
 .section-font-style{
         gap: 24px;
         display: flex;
+
         
         
         
+}
+.icon-list-section-tree{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .icon-list{
     
@@ -321,18 +327,24 @@ color: #2e2f42;
     fill: #f4f4fd;
   
 }
+.id-pictures-website{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .icon-id-one{
     display: flex;
     justify-content: center;
     align-items:center;
     width:40px;
     height: 40px;
-    border-radius:50%;
+   
     background-image: url(../images/instagram\ 2.svg);
-    background-color: #4D5AE5;
-    background-repeat: no-repeat;
-    background-position: center;
 }
+   
 .icon-id-two{
     display: flex;
     justify-content: center;
