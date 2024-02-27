@@ -332,6 +332,11 @@ color: #2e2f42;
    
   
 }
+.pictures-icon{
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 .id-pictures-website{
     width: 100%;
     height: 100%;
