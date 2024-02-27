@@ -288,7 +288,7 @@ color: #2e2f42;
 .section-team-foto{
     background: #f4f4fd;
     max-width: 1440px;
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
   
     
     
@@ -346,11 +346,14 @@ color: #2e2f42;
     align-items: center;
     justify-content: center;
     color: #fff;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
-.id-pictures-website:hover,
+.id-pictures-website:hover{
+    background-color: #404bbf;  
+}
 .id-pictures-website:focus{
-    background-color: #404bbf;
+    
     background-color: #404bbf;
 }
 .icon-id-repeat{
@@ -363,8 +366,7 @@ color: #2e2f42;
     align-items:center;
     width:40px;
     height: 40px;
-  
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 
 }
@@ -375,6 +377,7 @@ color: #2e2f42;
 .foto-people{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .names-workers{
     padding: 32px 0;
@@ -474,6 +477,7 @@ color: #2e2f42;
   background-color: 4D5AE5;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   
 
 
@@ -525,8 +529,53 @@ color: #2e2f42;
 .footer-class{
     padding: 100px 0;
 background-color : #2e2f42;
+
  }
 
+ .whole-footer{
+    display: flex;
+    align-items: baseline;
+ }
+ .footer-logo{
+    margin-right: 120px;
+ }
+ .social-media-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;;
+
+ }
+.footer-list-icon{
+    display: flex;
+    gap: 16px;;
+}
+
+.logo-icon-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-icon-footer:hover,
+.logo-icon-footer:focus{
+    background-color: #31d0aa;
+}
+.logo-list-link{
+    color: #fff;
+ 
+}
+.logo-list-icon{
+    fill: #f4f4fd;
+}
 .logo-footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
