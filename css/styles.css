@@ -62,24 +62,21 @@ img {
 background: #fff;
      
 }
-.name-link-current{
-position: relative;
-    color: #404bbf;
-}
+
 
 
 .name-link-current::after{
-content: '';
-width: 100%;
-    border-radius: 2px;
-    width: 48px;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-   background-color: #404bbf;
-    position: absolute;
-    margin-bottom: 0;
-}
+    content: '';
+    width: 100%;
+        border-radius: 2px;
+        width: 100%;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+       background-color: #404bbf;
+        position: absolute;
+        margin-bottom: 0;
+    }
 .nav-studio-logo {
     font-weight:  700;
     font-size:18px; 
@@ -128,6 +125,7 @@ width: 100%;
 }
 
 .name-link{
+    position: relative;
     font-weight: 500;
     font-size: 16px  ;
     line-height: 1.5;
