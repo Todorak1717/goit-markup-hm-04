@@ -152,7 +152,7 @@ margin-right: auto;
     background-color: #2e2f42;
     color: #fff;
     padding: 188px 0 188px;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -508,9 +508,13 @@ background-color : #2e2f42;
 
  }
 
- .whole-footer{
+ .footer-logo-ic{
     display: flex;
     align-items: baseline;
+    
+ }
+ .whole-footer{
+  margin-right: 120px;
  }
 
  .social-media-text{
@@ -563,6 +567,13 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
     display: inline-block;
     text-decoration: none;
+   
+}
+
+.pictures-social-media{
+    display: block;
+align-items: center;
+justify-content: center;
 }
 .logo-name-studio{
     font-weight: 700;
