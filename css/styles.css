@@ -388,8 +388,8 @@ color: #2e2f42;
    
 }
 
-.id-pictures-website:focus,
-.id-pictures-website:hover{
+.id-pictures-website:hover,
+.id-pictures-website:focus{
     background-color: #404bbf;
 }
 .icon-id-repeat{
