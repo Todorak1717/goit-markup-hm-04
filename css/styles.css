@@ -229,7 +229,7 @@ margin-bottom: 8px;
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid #8e8f99;
-    color:2E2F42 ;
+   
 }
 
 
@@ -355,7 +355,6 @@ color: #2e2f42;
 .id-pictures-website:hover,
 .id-pictures-website:focus{
     background-color: #404bbf;
- background-color: #404bbf;
 }
 .icon-id-repeat{
     fill: #f4f4fd;
@@ -443,14 +442,14 @@ color: #2e2f42;
  .thumb{
     position:relative ;  
     overflow: hidden;
-    transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
  }
  .thumb:hover .text-overlay{
     transform: translateY(0%);
  }
 .foto-app{
-  
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
     width: calc((100% - 48px) / 3);
    
